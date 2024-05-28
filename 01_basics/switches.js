@@ -18,7 +18,7 @@ switch (month) {
     case 6:
         console.log("june");
         break;
-
+ 
     default:
         console.log("write a month between 1 to 12");
         break;

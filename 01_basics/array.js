@@ -18,6 +18,7 @@ console.log(allarr);
 let wings = [...arr,...nice] 
 console.log(wings);
 
+
 const anotherArray = [1,43,2,"islamabad",["king",[123]],"peshawar"]
 const real = anotherArray.flat(Infinity)
 console.log(real);

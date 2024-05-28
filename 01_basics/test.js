@@ -1,1 +1,1 @@
-console.log("wahaj");
+console.log("wahaj");  

@@ -71,7 +71,7 @@ mynewarray.forEach(printme);
 mynewarray.forEach((item, place, fullArray) => {
   console.log(item, place, fullArray);
 });
-
+ 
 let myCoding = [
   {
     languageName: "javaScript",

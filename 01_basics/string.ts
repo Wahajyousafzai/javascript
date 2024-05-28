@@ -1,6 +1,6 @@
 function players(a: string, b: string): String {
   return `${a} and ${b}`;
-}
+} 
 let team = new String("worldcup");
 let newteam = ["nepal", "ireland"];
 let matches = 3 + 2;

@@ -2,7 +2,7 @@
 
 // Array, Objects, Functions
 const cities = ["karachi", "lahore", "peshawar"];
-
+ 
 const myobj = {
   population : "22 crore",
   averageAge: 18-45,
