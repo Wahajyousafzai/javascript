@@ -26,16 +26,29 @@ let valueInNumber = Number(score);
 // const min = 10
 // const max = 20
 // console.log(Math.floor(Math.random() * ( max - min + 1)) + min);
-let newdate = new Date();
-console.log(newdate.toDateString());
-console.log(newdate.toString());
-console.log(newdate.toISOString());
-console.log(newdate.toJSON());
-console.log(newdate.toLocaleString());
-console.log(newdate.toLocaleTimeString());
-console.log(newdate.toTimeString());
-console.log(typeof newdate);
+// let newdate = new Date();
+// console.log(newdate.toDateString());
+// console.log(newdate.toString());
+// console.log(newdate.toISOString());
+// console.log(newdate.toJSON());
+// console.log(newdate.toLocaleString());
+// console.log(newdate.toLocaleTimeString());
+// console.log(newdate.toTimeString());
+// console.log(typeof newdate);
+
 let mynewdate = new Date(2006, 4, 30, 2, 3, 5);
 console.log(mynewdate.toLocaleString());
-let myPreDate = new Date("1-05-2017");
+let myPreDate = new Date("2-1-1970");
 console.log(myPreDate.toLocaleString());
+let timeStamp = Date.now();
+console.log(timeStamp);
+console.log(myPreDate.getTime());
+console.log(mynewdate.getTime());
+// console.log(Math.floor(date.now()/1000));
+
+// let balance = new Number(100)
+// console.log(balance);
+// console.log(typeof balance);
+// console.log(balance.toString().length);
+// let myNumber = 123.123
+// console.log(myNumber.toPrecision(4));
